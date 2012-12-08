@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B197ABBD-FE72-4264-8197-FD32CAB0DA6C}</ProjectGuid>
+    <ProjectGuid>{17B32092-7BB7-45D7-817D-1D8A473E4D9F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>process_synchronization</RootNamespace>
+    <RootNamespace>banker_algorithm</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -76,11 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="IntegerSemaphore.cpp" />
     <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="IntegerSemaphore.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

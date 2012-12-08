@@ -13,21 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="PRODUCER_CONSUMER">
-      <UniqueIdentifier>{00653d4d-1d68-4baf-b262-2d2496e7d402}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IntegerSemaphore.cpp">
-      <Filter>PRODUCER_CONSUMER</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="IntegerSemaphore.h">
-      <Filter>PRODUCER_CONSUMER</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
