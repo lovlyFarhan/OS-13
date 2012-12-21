@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "banker_algorithm", "banker_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "win32", "win32\win32.vcxproj", "{1D8E61B3-D10A-4A9F-93D3-C9500B08DDB0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "page_replacement_algorithm", "page_replacement_algorithm\page_replacement_algorithm.vcxproj", "{12C66E90-B1C9-4D40-AA0E-05E02C1C68AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "file_index", "file_index\file_index.vcxproj", "{A744A7E0-FA70-445B-A7CD-38D1CB66E008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +29,14 @@ Global
 		{1D8E61B3-D10A-4A9F-93D3-C9500B08DDB0}.Debug|Win32.Build.0 = Debug|Win32
 		{1D8E61B3-D10A-4A9F-93D3-C9500B08DDB0}.Release|Win32.ActiveCfg = Release|Win32
 		{1D8E61B3-D10A-4A9F-93D3-C9500B08DDB0}.Release|Win32.Build.0 = Release|Win32
+		{12C66E90-B1C9-4D40-AA0E-05E02C1C68AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{12C66E90-B1C9-4D40-AA0E-05E02C1C68AF}.Debug|Win32.Build.0 = Debug|Win32
+		{12C66E90-B1C9-4D40-AA0E-05E02C1C68AF}.Release|Win32.ActiveCfg = Release|Win32
+		{12C66E90-B1C9-4D40-AA0E-05E02C1C68AF}.Release|Win32.Build.0 = Release|Win32
+		{A744A7E0-FA70-445B-A7CD-38D1CB66E008}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A744A7E0-FA70-445B-A7CD-38D1CB66E008}.Debug|Win32.Build.0 = Debug|Win32
+		{A744A7E0-FA70-445B-A7CD-38D1CB66E008}.Release|Win32.ActiveCfg = Release|Win32
+		{A744A7E0-FA70-445B-A7CD-38D1CB66E008}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

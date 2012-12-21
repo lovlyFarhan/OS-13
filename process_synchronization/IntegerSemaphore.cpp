@@ -78,6 +78,5 @@ BOOL INTEGER_SEMAPHORE_TEST()
 	CloseHandle(producerThread);
 	HANDLE consumerThread = CreateThread(NULL,0,CONSUMERPROCESS,NULL,0,NULL);
 	CloseHandle(consumerThread);
-
 	return EXIT_SUCCESS;
 }
