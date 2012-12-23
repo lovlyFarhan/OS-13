@@ -18,7 +18,7 @@ int main(int agrc,char *argv[])
 	while(true)
 	{
 		char cmd[5]; 
-		system("echo 输入'exit'退出;否则，继续....");
+		system("echo 输入'exit'退出;否则，输入'go'，继续....");
 		cin>>cmd;
 		if(!strcmp(cmd,"exit"))
 			break;
