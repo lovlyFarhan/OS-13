@@ -10,15 +10,15 @@ using namespace std;
 #define EMPTY -1 
 
 /**
- *最近最久未使用置换算法
- *LEAST RECENTLY USED
- **/
-class LRU
+*最近最久未使用置换算法
+*LEAST RECENTLY USED
+**/
+class PageReplacement
 {
 public:
-	LRU(int);
-	~LRU();
-	void PAGE_REPLACEMENT_TEST();
+	PageReplacement(int);
+	~PageReplacement();
+	void PAGE_REPLACEMENT_LUR_TEST();
 	void printPhysicalBlock();
 private:
 	const static int DEFAULT_SIZE = 20;
@@ -33,7 +33,5 @@ private:
 	//栈
 	list<int> *stack;
 };
-
- 
 
 #endif

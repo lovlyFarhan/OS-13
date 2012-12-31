@@ -1,6 +1,6 @@
 #include "pagereplacement.h"
 
-LRU::LRU(int count)
+PageReplacement::PageReplacement(int count)
 {
 	this->count = count;
 	this->physicalBlock = new int[count];
@@ -11,7 +11,7 @@ LRU::LRU(int count)
 	this->stack = new list<int>();
 }
 
-LRU::~LRU()
+PageReplacement::~PageReplacement()
 {
 	delete[] this->physicalBlock;
 	delete this->stack;
@@ -19,10 +19,10 @@ LRU::~LRU()
 	this->length = 0;
 }
 
-void LRU::PAGE_REPLACEMENT_TEST()
+void PageReplacement::PAGE_REPLACEMENT_LUR_TEST()
 {
 	int pageRefIndex;
-	system("echo 输入-1退出程序；输入-2查看栈信息；输入其它数值表示页面号。\n建议输入值区间为[-2,20].");
+	system("echo 输入-1退出程序；输入-2查看栈信息；输入其它数值表示页面号。建议输入值区间为[-2,20].");
 	system("pause");
 	system("cls");
 	while (true)
@@ -96,7 +96,7 @@ void LRU::PAGE_REPLACEMENT_TEST()
 }
 
 
-void LRU::printPhysicalBlock()
+void PageReplacement::printPhysicalBlock()
 {
 	cout<<"物理块中的页面号：";
 	for(int i = 0;i < this->count;++i)
@@ -108,3 +108,5 @@ void LRU::printPhysicalBlock()
 	}
 	cout<<endl;
 }
+
+ 
