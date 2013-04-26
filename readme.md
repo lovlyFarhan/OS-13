@@ -1,4 +1,4 @@
-#计算机操作系统
+#计算机操作系统经典算法演示实现
 >Author:<a href="http://www.iliyang.cn">Andrew Shaw</a>  
 
 >Email:solome@outlook.com
@@ -30,25 +30,3 @@
 >
 >
 
-##UNIX环境高级编程
->*Advanced Programming int the UNIX Environment*
->
-
-##linux基础
-###linux文件、目录与磁盘格式
->1.linux的文件权限与目录配置;
-
->2.linux文件与目录管理；
-
->3.linux磁盘与文件系统管理；
-
->4.文件与文件系统的压缩与打包；
-
-##shell与shell script
->1.vim程序编辑器；
-
->2.what is bash?
-
->3.正则表达式与文件格式化处理；
-
->4.Learning shell script.
