@@ -11,6 +11,7 @@
 ####壓縮命令：
 *compress*:一款古老的壓縮命令，在centOS6.4中可以`man compress`查看命令的說明文檔，但是系統中並未提供該命令。（不常用，不做備份）。  
 *gzip/zcat*:
+
     [solome@app ~]$ gzip [-cdtv#] filename
     [solome@app ~]$ zcat filename.gz       #讀取壓縮文件中的內容
     PARAMS:
