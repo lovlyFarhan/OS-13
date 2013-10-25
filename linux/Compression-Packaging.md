@@ -1,12 +1,12 @@
 ###壓縮與打包
 
 ####常見的壓縮文件擴展名:
-    *.Z
-    *.gz
-    *.bz2
-    *.tar
-    *.tar.gz
-    *.tar.bz2
+    *.Z          #compress
+    *.gz         #gzip
+    *.bz2        #bzip2
+    *.tar        #tar
+    *.tar.gz     #tar\gzip
+    *.tar.bz2    #tar\bzip2
 
 ####壓縮命令：
 *compress*:一款古老的壓縮命令，在centOS6.4中可以`man compress`查看命令的說明文檔，但是系統中並未提供該命令。（不常用，不做備份）。  
